@@ -202,7 +202,7 @@ option {
 }
 
 main.container {
-  padding: 0 3.5rem;
+  padding: 0 3rem;
   margin: 0 auto;
   max-width: 1089px;
   box-sizing: border-box;
@@ -245,11 +245,121 @@ span.link {
 
 span.material-icons {
   color: #c2cfe0;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.5rem;
   cursor: pointer;
 }
 
 span.material-icons:hover {
   color: #0148f5;
+}
+
+.main-content {
+  display: flex;
+}
+
+.widget {
+  margin: 1.1rem 0;
+  flex: 25% 0 0;
+}
+
+.website-score {
+  border-right: 1px solid #ebeff2;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+}
+
+h3.title {
+  color: #818e9b;
+  font-size: 0.7rem;
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  margin-bottom: 14px;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span.percent {
+  color: #2ed47a;
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 84px;
+}
+
+span.percent span {
+  font-size: 1.75rem;
+}
+
+span.variation.down {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+  color: #dd4c3a;
+}
+
+span.arrow::before {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  width: 20px;
+}
+
+span.change.down {
+  color: #dd4c3a;
+}
+
+span.arrow.down::before {
+  content: "arrow_drop_down";
+  color: #dd4c3a;
+  vertical-align: middle;
+}
+
+span.change.up {
+  color: #2ed47a;
+}
+
+span.arrow.up::before {
+  content: "arrow_drop_up";
+  color: #2ed47a;
+  vertical-align: sub;
+}
+
+.score .title {
+  font-size: 0.75rem;
+  line-height: 21.6px;
+  letter-spacing: 0.01em;
+}
+
+.errors .title {
+  color: #dd4c3a;
+}
+
+.warnings .title {
+  color: orange;
+}
+
+.notice .title {
+  color: deepskyblue;
+}
+
+.score .value {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 180%;
+  color: #004bff;
 }
