@@ -88,6 +88,7 @@ video {
   vertical-align: baseline;
   box-sizing: border-box;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -102,17 +103,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -120,6 +125,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -160,6 +166,7 @@ h1 {
   line-height: 2.25rem;
   letter-spacing: 0.01em;
 }
+
 .header-right {
   display: flex;
   justify-content: space-between;
@@ -173,6 +180,7 @@ h1 {
   line-height: 18px;
   letter-spacing: 0.01em;
 }
+
 select#changefilter,
 option {
   font-size: 12px;
@@ -181,6 +189,7 @@ option {
   border: none;
   color: #0148f5;
 }
+
 .plus-button .button {
   background: #0148f5;
   border: none;
@@ -218,11 +227,7 @@ main.container {
 span.icon {
   width: 25px;
   height: 25px;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.9) 0%,
-    rgba(0, 0, 0, 0.9) 100%
-  );
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
   border-radius: 25px;
   display: block;
   color: white;
@@ -231,6 +236,7 @@ span.icon {
   font-weight: 900;
   font-size: 13px;
 }
+
 span.link {
   font-size: 1rem;
   font-weight: 500;
@@ -244,6 +250,7 @@ span.material-icons {
   line-height: 1.5rem;
   cursor: pointer;
 }
+
 span.material-icons:hover {
   color: #0148f5;
 }

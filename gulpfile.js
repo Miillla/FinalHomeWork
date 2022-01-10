@@ -20,7 +20,5 @@ function watch() {
     //gulp.watch('./src/**/*.js').on('change', browserSync.reload);
 }
 
-
-
 exports.style = style;
 exports.watch = watch;
