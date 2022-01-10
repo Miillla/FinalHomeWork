@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dashboard</h1>
+      <div class="header-right">
+        <div class="filter">
+          <span>Filter: </span>
+          <select name="changefilter" id="changefilter">
+            <option value="sd">Shared Domains</option>
+            <option value="pd">Public Domains</option>
+            <option value="pvtd">Private Domains</option>
+            <option value="prmd">Premium Domains</option>
+          </select>
+        </div>
+        <div class="plus-button">
+          <button class="button">+</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="header">
+        <div class="top-left">
+          <span class="icon">K</span>
+          <span class="link">https://kparser.com</span>
+        </div>
+        <div class="top-right">
+          <span class="material-icons material-icons-outlined">share</span>
+          <span class="material-icons material-icons-outlined">settings</span>
+          <span class="material-icons material-icons-outlined">delete</span>
+        </div>
+      </div>
+
+      <div class="main-content"></div>
+    </main>
+  </body>
+</html>
