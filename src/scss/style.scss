@@ -286,6 +286,12 @@ span.variation.down {
   line-height: 180%;
   letter-spacing: 0.01em;
   color: #dd4c3a;
+  display: flex;
+  align-items: center;
+}
+.score span.variation.arrow::before {
+  font-size: 1.5rem;
+  width: 1.2rem;
 }
 span.arrow::before {
   font-family: "Material Icons";
@@ -305,19 +311,27 @@ span.arrow::before {
 }
 span.change.down {
   color: #dd4c3a;
+  display: flex;
+  align-items: center;
 }
 span.arrow.down::before {
   content: "arrow_drop_down";
   color: #dd4c3a;
-  vertical-align: middle;
+  margin: 3px 0 0 0;
+  font-size: 1rem;
+  width: 0.9rem;
 }
 span.change.up {
   color: #2ed47a;
+  display: flex;
+  align-items: center;
 }
 span.arrow.up::before {
   content: "arrow_drop_up";
   color: #2ed47a;
-  vertical-align: sub;
+  margin: 0 0 3px 0;
+  font-size: 1rem;
+  width: 0.9rem;
 }
 .score .title {
   font-size: 0.75rem;
@@ -338,4 +352,6 @@ span.arrow.up::before {
   font-size: 12px;
   line-height: 180%;
   color: #004bff;
+  display: flex;
+  align-items: center;
 }
