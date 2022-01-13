@@ -256,11 +256,12 @@ span.material-icons:hover {
 
 .main-content {
   display: flex;
+  column-gap: 2.18rem;
 }
 
 .widget {
   margin: 1.1rem 0;
-  flex: 25% 0 0;
+  flex: 175px 0 0;
 }
 
 .website-score {
@@ -379,4 +380,118 @@ span.arrow.up::before {
   color: #004bff;
   display: flex;
   align-items: center;
+}
+
+.rankings {
+  border-right: 1px solid #ebeff2;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+}
+
+.rankings .score {
+  margin-right: 45px;
+}
+
+.rankings .score .title::before {
+  height: 2px;
+  width: 2px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #004bff;
+  content: "";
+  margin: 0 8.4px 1px 0;
+}
+
+.rankings img {
+  margin-top: 23px;
+}
+
+.rankings .score .rank2::before {
+  border: 2px solid rgba(0, 75, 255, 0.75);
+}
+
+.rankings .score .rank3::before {
+  border: 2px solid rgba(0, 75, 255, 0.5);
+}
+
+.rankings .score .rank4::before {
+  border: 2px solid rgba(221, 76, 58, 0.5);
+}
+
+.last-changes {
+  border-right: 1px solid #ebeff2;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+  flex: 220px 0 0;
+}
+
+.last-changes .value {
+  display: inline;
+}
+
+time {
+  font-size: 10px;
+  line-height: 180%;
+  color: #707683;
+  display: block;
+}
+
+.last-changes span.title.change::before {
+  border-radius: 50%;
+  display: inline-block;
+  background: #f18f1c;
+  border: 2px solid #f18f1c;
+  content: "";
+  margin-right: 5px;
+  margin-bottom: 1px;
+  width: 5px;
+  height: 5px;
+  box-sizing: border-box;
+}
+
+.last-changes span.title.last::before {
+  border-radius: 50%;
+  display: inline-block;
+  background: #27be88;
+  border: 2px solid #27be88;
+  content: "";
+  margin-right: 5px;
+  margin-bottom: 1px;
+  width: 5px;
+  height: 5px;
+  box-sizing: border-box;
+}
+
+.traffic .score {
+  margin-right: 60px;
+}
+
+.traffic img {
+  margin-top: 42px;
+}
+
+.traffic .score .title::before {
+  height: 2px;
+  width: 2px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #004bff;
+  content: "";
+  margin: 0 8.4px 1px 0;
+}
+
+.traffic img {
+  margin-top: 23px;
+}
+
+.traffic .score .rank2::before {
+  border: 2px solid rgba(0, 75, 255, 0.75);
+}
+
+.traffic .score .rank3::before {
+  border: 2px solid rgba(0, 75, 255, 0.5);
+}
+
+.traffic .score .rank4::before {
+  border: 2px solid rgba(221, 76, 58, 0.5);
 }
